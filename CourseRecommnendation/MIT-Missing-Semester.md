@@ -1,0 +1,12 @@
+# MIT-Missing-Semester
+- 先修要求：无
+- 编程语言：shell
+- 预计学时：10h
+- 简介：
+    - 正如课程名字所言：“计算机教学中消失的一个学期”，这门课将会教会你课堂上不会涉及但却无比重要的工具或者知识点。例如 Shell 编程、命令行配置、Git、Vim、tmux、ssh 等等。
+    - 如果你是一个计算机小白，那么我非常建议你学习一下这门课，因为它基本涉及了作为CS专业学习者应该了解的绝大部分内容。
+- 选用资源：
+    - 网站：https://missing-semester-cn.github.io/
+    - 中文字幕视频：
+        - Missing_Semi_中译组（未完结）：https://space.bilibili.com/1010983811?spm_id_from=333.337.search-card.all.click
+        - 刘黑黑a（已完结）：https://space.bilibili.com/518734ß451?spm_id_from=333.337.search-card.all.click
