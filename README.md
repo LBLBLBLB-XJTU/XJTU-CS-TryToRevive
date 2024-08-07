@@ -23,8 +23,9 @@
 1. MIT-Missing-Semester
 
 ## changelog
-2024.07.29 仓库建立
-2024.07.30 更新Vim笔记和课程MIT-Missing-Semeter
+2024.07.29 仓库建立  
+2024.07.30 更新Vim笔记和课程MIT-Missing-Semeter   
+2024.08.07 更新Git,Markdown以及正则表达式
 
 ### 参考资料：
 
