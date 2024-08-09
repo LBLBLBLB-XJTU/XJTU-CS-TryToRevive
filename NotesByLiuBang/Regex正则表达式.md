@@ -1,5 +1,17 @@
 # 正则表达式
 
+- [正则表达式](#-----)
+    * [什么是REGEX](#---regex)
+    * [示例](#--)
+    * [普通字符](#----)
+    * [非打印字符](#-----)
+    * [特殊字符](#----)
+    * [限定符](#---)
+    * [定位符](#---)
+    * [修饰符](#---)
+
+<small><i><a href='http://ecotrust-canada.github.io/markdown-toc/'>Table of contents generated with markdown-toc</a></i></small>
+
 ## 什么是REGEX
 模式，是正则表达式最基本的元素，它们是一组描述字符串特征的字符。模式可以很简单，由普通的字符串组成，也可以非常复杂，往往用特殊的字符表示一个范围内的字符、重复出现，或表示上下文。  
 例如： ^once 这个模式包含一个特殊的字符 ^，表示该模式只匹配那些以 once 开头的字符串。例如该模式与字符串 "once upon a time" 匹配，与 "There once was a man from NewYork" 不匹配。  

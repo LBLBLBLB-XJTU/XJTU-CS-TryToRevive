@@ -1,5 +1,14 @@
 # Markdown
 
+- [Markdown](#markdown)
+    * [字体样式](#----)
+    * [列表](#--)
+    * [代码显示](#----)
+    * [超链接](#---)
+    * [常用HTML](#--html)
+
+<small><i><a href='http://ecotrust-canada.github.io/markdown-toc/'>Table of contents generated with markdown-toc</a></i></small>
+
 ## 字体样式
 1. 斜体文本用*包围
 2. 斜体文本用**包围   
@@ -17,3 +26,6 @@
 
 ## 常用HTML
 1. &ensp：一个空格
+2. \<sub>\</sub>：下标
+3. \<sup>\</sup>：上标
+4. \&le;：小于等于号

@@ -1,5 +1,13 @@
 # Vim
 
+- [Vim](#vim)
+    * [模式](#--)
+    * [快捷键:](#----)
+        + [normal](#normal)
+        + [command-line](#command-line)
+
+<small><i><a href='http://ecotrust-canada.github.io/markdown-toc/'>Table of contents generated with markdown-toc</a></i></small>
+
 ## 模式
 正常模式：在文件中四处移动光标进行修改  
 插入模式：插入文本   
