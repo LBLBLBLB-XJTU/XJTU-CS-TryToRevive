@@ -10,3 +10,7 @@
     - 中文字幕视频：
         - Missing_Semi_中译组（未完结）：https://space.bilibili.com/1010983811?spm_id_from=333.337.search-card.all.click
         - 刘黑黑a（已完结）：https://space.bilibili.com/518734ß451?spm_id_from=333.337.search-card.all.click
+- 笔记
+  - [Git](https://github.com/LBLBLBLB-XJTU/XJTU-CS-TryToRevive/blob/main/NotesByLiuBang/Git.md)
+  - [Markdown](https://github.com/LBLBLBLB-XJTU/XJTU-CS-TryToRevive/blob/main/NotesByLiuBang/Markdown.md)
+  - [Vim](https://github.com/LBLBLBLB-XJTU/XJTU-CS-TryToRevive/blob/main/NotesByLiuBang/Vim.md)
