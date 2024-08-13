@@ -10,3 +10,4 @@
   - 中文字母视频：https://www.bilibili.com/video/BV17K4y1678s/?spm_id_from=333.337.search-card.all.click&vd_source=7fa1782476bb1d1589d9141ea89d2bca
 - 笔记
   - [搜索](https://github.com/LBLBLBLB-XJTU/XJTU-CS-TryToRevive/blob/main/NotesByLiuBang/%E6%90%9C%E7%B4%A2%E9%97%AE%E9%A2%98.md)
+  - [知识](https://github.com/LBLBLBLB-XJTU/XJTU-CS-TryToRevive/blob/main/NotesByLiuBang/%E6%90%9C%E7%B4%A2%E9%97%AE%E9%A2%98.md)
