@@ -99,13 +99,13 @@ def check_all(knowledge, query, symbols, model):
 推理规则常常会用一个水平线表示，线上方的是前提，即拥有的知识。而下方则是结论，即从前提可以生成的知识
 
 ### Modus Ponens肯定前件
-如果一个蕴涵及其前件为真，那么结果也为真。
-![肯定前件](https://github.com/LBLBLBLB-XJTU/XJTU-CS-TryToRevive/blob/main/resource/sm.png?raw=true)
+如果一个蕴涵及其前件为真，那么结果也为真。  
+![肯定前件](https://github.com/LBLBLBLB-XJTU/XJTU-CS-TryToRevive/blob/main/resource/sm%20.png)
 ### And Elimination与消去
 如果一个与命题为真，那么其中任何的原子命题为真。
 ![与消去](https://github.com/LBLBLBLB-XJTU/XJTU-CS-TryToRevive/blob/main/resource/andelimination.png?raw=true)
 ### Double Negation Elimination双重否定
-一个命题被否定两次时为真
+一个命题被否定两次时为真  
 ![双重否定](https://github.com/LBLBLBLB-XJTU/XJTU-CS-TryToRevive/blob/main/resource/doublenegationelimination.png?raw=true)
 ### Implication Elimination推理消去
 这和肯定前件相似但又有不同。一个推断等价于前提取反然后或上结论
@@ -115,7 +115,7 @@ def check_all(knowledge, query, symbols, model):
 ![双条件消去](https://github.com/LBLBLBLB-XJTU/XJTU-CS-TryToRevive/blob/main/resource/biconditionalelimination.png?raw=true)
 ### De Morgan's law德摩根律
 为了使And命题为真，Or命题中至少有一个命题必须为真。同样的，为了使Or命题为真，and命题中至少一个为真
-这个定律用于and和or的转换
+这个定律用于and和or的转换  
 ![德摩根律1](https://github.com/LBLBLBLB-XJTU/XJTU-CS-TryToRevive/blob/main/resource/demorgans1.png?raw=true)
 ![德摩根律2](https://github.com/LBLBLBLB-XJTU/XJTU-CS-TryToRevive/blob/main/resource/demorgans2.png?raw=true)
 ### Distributive Property分配律
