@@ -1,5 +1,33 @@
 # Knowledge知识
 
+- [Knowledge知识](#knowledge--)
+  * [Sentence](#sentence)
+  * [命题逻辑](#----)
+    + [命题符号](#----)
+    + [命题连词](#----)
+    + [知识模型、知识基](#--------)
+    + [蕴含](#--)
+  * [推理](#--)
+    + [模型检查算法](#------)
+  * [知识工程](#----)
+  * [推理规则](#----)
+    + [Modus Ponens肯定前件](#modus-ponens----)
+    + [And Elimination与消去](#and-elimination---)
+    + [Double Negation Elimination双重否定](#double-negation-elimination----)
+    + [Implication Elimination推理消去](#implication-elimination----)
+    + [Biconditional Elimination双条件消去](#biconditional-elimination-----)
+    + [De Morgan's law德摩根律](#de-morgan-s-law----)
+    + [Distributive Property分配律](#distributive-property---)
+    + [知识与搜索问题](#-------)
+  * [消解](#--)
+    + [消解](#---1)
+    + [子句与CNF](#---cnf)
+  * [一阶逻辑](#----)
+    + [全称量化](#----)
+    + [存在量化](#----)
+
+<small><i><a href='http://ecotrust-canada.github.io/markdown-toc/'>Table of contents generated with markdown-toc</a></i></small>
+
 ## Sentence
 AI通过Sentence来存储和利用知识。sentence是在知识表示语言中关于一个内容的断言
 
@@ -11,18 +39,15 @@ P，Q，R这三个字母常用于作为命题符号
 - Not(¬)：对命题取反  
 - And(∧)：只有连接的两个命题都为真时，才取真
 - Or(∨)：只要有一个为真即取真（这里有一个不常用的排他性Or（即XOR(⊕)），排他性的Or只有两个中一真一假才为真，这个不常用）
-- Implication(→)：如果前者成立，那么后者成立。称前者为因，后者为果。当原因为假，无论结果如何，整句始终为真
-，当原因为真，那么整句的真假与结果的真假一致
+- Implication(→)：如果前者成立，那么后者成立。称前者为因，后者为果。当原因为假，无论结果如何，整句始终为真，当原因为真，那么整句的真假与结果的真假一致
 - 相等(↔)：即双向的推理。此时，全假和全真使全句为真，一真一假则为假
 ### 知识模型、知识基
 知识由命题组成。知识基是提供给AI的一组sentence的集合，AI由此作出推断
 ### 蕴含
-⊨符号如果A蕴含B，那么如果A为真，则B就真。注意，蕴含与推断不同，推理是两个命题之间的逻辑连接词，另一方面，蕴涵是一种关系，意味
-着如果 α 中的所有信息都是真的，那么 β 中的所有信息都是真的。
+⊨符号如果A蕴含B，那么如果A为真，则B就真。注意，蕴含与推断不同，推理是两个命题之间的逻辑连接词，另一方面，蕴涵是一种关系，意味着如果 α 中的所有信息都是真的，那么 β 中的所有信息都是真的。
 
 ## 推理
-推理，即是从已有的知识中推理出新的知识。这里有许多种方式来推断出新的知识。我们从模型检查（Model Check）算法
-开始
+推理，即是从已有的知识中推理出新的知识。这里有许多种方式来推断出新的知识。我们从模型检查（Model Check）算法开始
 ### 模型检查算法
 为了证明if KB ⊨ a（即我们可以从已有的知识中退出a），我们需要：  
 - 枚举所有可能的模型
@@ -85,8 +110,7 @@ def check_all(knowledge, query, symbols, model):
         return(check_all(knowledge, query, remaining, model_true) and check_all(knowledge, query, remaining, model_false))
 ```
 这是一个递归的算法：每次都会从符号集中弹出一个符号，并通过这个符号生成两个模型，这两个模型一个是符号取值为真
-一个符号取值为假，然后递归调用函数，这样一来，所有的符号都会被赋予一个值。当符号集为空时，即可认为生成了所有可能
-的模型。这样递归到最后一层时即可检查在模型中，KB是否为真；如果KB为真，那么就检查结论是否为真。
+一个符号取值为假，然后递归调用函数，这样一来，所有的符号都会被赋予一个值。当符号集为空时，即可认为生成了所有可能的模型。这样递归到最后一层时即可检查在模型中，KB是否为真；如果KB为真，那么就检查结论是否为真。
 
 注意，我们只对当KB为真时的模型感兴趣，如果KB为假，那么模型中发生的事情与我们无关
 
@@ -135,8 +159,7 @@ def check_all(knowledge, query, symbols, model):
 消解是一个强大的推理规则：对于一个与命题，如果其中一个为假，则另一个必须为真
 ![消解1](https://github.com/LBLBLBLB-XJTU/XJTU-CS-TryToRevive/blob/main/resource/resolution1.png?raw=true)
 
-消解依赖于互补文字（Complementary Literals，两个相同的原子命题，一个为否定一个不否定。互补文字帮助我们生成
-新的语句来进行推理
+消解依赖于互补文字（Complementary Literals，两个相同的原子命题，一个为否定一个不否定。互补文字帮助我们生成新的语句来进行推理
 
 进一步的，消解有如下的扩展：
 ![消解2](https://github.com/LBLBLBLB-XJTU/XJTU-CS-TryToRevive/blob/main/resource/resolution2.png?raw=true)

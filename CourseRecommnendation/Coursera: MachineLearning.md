@@ -1,0 +1,11 @@
+# Coursera: MachineLearning
+- 先修要求：Python
+- 编程语言：Python
+- 预计学时：100h
+- 简介：
+  - 一个机器学习的公开慕课，小白级教程，对新手友好，难度低。但是数学推导自然也是一带而过。由于正版课程订阅后才会提供代码，而二手资源则要各种关注微信号，所以就没有做代码project（我承认我是懒狗捏）。
+- 选用资源：
+  - 课程网站：https://www.coursera.org/learn/machine-learning
+  - 中文字幕视频：https://www.bilibili.com/video/BV1Bq421A74G/?spm_id_from=333.337.search-card.all.click&vd_source=7fa1782476bb1d1589d9141ea89d2bca
+- 笔记
+  - [机器学习笔记](https://github.com/LBLBLBLB-XJTU/XJTU-CS-TryToRevive/blob/main/NotesByLiuBang/MachineLearningNotesForAndrewNg'sCourse.md)
