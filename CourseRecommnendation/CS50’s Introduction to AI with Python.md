@@ -13,5 +13,8 @@
   - [知识](https://github.com/LBLBLBLB-XJTU/XJTU-CS-TryToRevive/blob/main/NotesByLiuBang/AI-Knowledge.md)
   - [不确定性](https://github.com/LBLBLBLB-XJTU/XJTU-CS-TryToRevive/blob/main/NotesByLiuBang/AI-Uncertainty.md)
   - [优化](https://github.com/LBLBLBLB-XJTU/XJTU-CS-TryToRevive/blob/main/NotesByLiuBang/AI-Optimization.md)
+  - [学习](https://github.com/LBLBLBLB-XJTU/XJTU-CS-TryToRevive/blob/main/NotesByLiuBang/AI-Learning.md)
+  - [神经网络](https://github.com/LBLBLBLB-XJTU/XJTU-CS-TryToRevive/blob/main/NotesByLiuBang/AI-NeuralNetworks.md)
+
 - 作业实现：
   - https://github.com/LBLBLBLB-XJTU/Harvard-CS50-AI
