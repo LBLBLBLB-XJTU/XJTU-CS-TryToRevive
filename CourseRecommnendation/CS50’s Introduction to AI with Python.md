@@ -15,6 +15,7 @@
   - [优化](https://github.com/LBLBLBLB-XJTU/XJTU-CS-TryToRevive/blob/main/NotesByLiuBang/AI-Optimization.md)
   - [学习](https://github.com/LBLBLBLB-XJTU/XJTU-CS-TryToRevive/blob/main/NotesByLiuBang/AI-Learning.md)
   - [神经网络](https://github.com/LBLBLBLB-XJTU/XJTU-CS-TryToRevive/blob/main/NotesByLiuBang/AI-NeuralNetworks.md)
+  - [语言](https://github.com/LBLBLBLB-XJTU/XJTU-CS-TryToRevive/blob/main/NotesByLiuBang/AI-Language.md)
 
 - 作业实现：
   - https://github.com/LBLBLBLB-XJTU/Harvard-CS50-AI
