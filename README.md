@@ -30,13 +30,23 @@
 
 1. CS50‘s Introduction to AI with python
 
+### 论文项目
+
+1. mmRadarAndReID
+
 ## changelog
 
 2024.07.29 仓库建立
+
 2024.07.30 更新Vim笔记和课程MIT-Missing-Semeter
+
 2024.08.07 更新Git,Markdown以及正则表达式
+
 2024.08.09 增加了目录，更新了CS50课程、搜索问题和面试问题
+
 2024.08.22 完成CS50AI课程
+
+2024.10.27 添加毫米波与ReID项目
 
 ### 参考资料：
 
